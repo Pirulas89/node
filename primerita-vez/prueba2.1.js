@@ -1,6 +1,6 @@
-var name = 'John Doe';
-var age = 29;
-var hobbies = true;
+const name = 'John Doe';
+let age = 29;
+const hobbies = true;
 
 function summarizeUser(userName, userAge, userHobbies) {
     var messageHobbies = userHobbies ? 'tiene hobbies' : 'no tiene hobbies';
