@@ -15,4 +15,4 @@ app.use((req, res, next) => {
     res.status(404).send('<h1>Pagina no encontrada</h1>');
 });
 
-server.listen(3004);
+app.listen(3004);
